@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ev">
+
+    <input type="text" id="width" placeholder="Ölçüsü tipini dəyiş...">
+    <br>
+    <br>
+    <select name="" id="olchu">
+         <option value="px">px</option>
+         <option value="%">%</option>
+         <option value="em">em</option>
+         <option value="rem">rem</option>
+         <option value="vw">vw</option>
+         <option value="ex">ex</option>
+         <option value="vmin">vmin</option>
+         <option value="vmax">vmax</option>
+    </select>
+    <br>
+    <br>
+    <button type="button" onclick="changeWidth()">Enini dəyiş</button>
+    <br>
+    <br>
+
+    <input type="text" id="height" placeholder="hündürlüyü daxil edin...">
+   <br>
+   <br>
+    <button type="button" onclick="changeHeight()">hündürlüyünü dəyiş</button>
+    <br>
+    <br>
+
+    <select name="" id="color">
+        <option value="#A10559">magenta</option>
+        <option value="#1338BE">cobalt</option>
+        <option value="#FFEF00">canavary yellow</option>
+        <option value="#177245">spring green</option>
+        <option value="#00BFFF">sky blue</option>
+        <option value="#FF3800">coral</option>
+        <option value="black">black</option>
+        <option value="lavender">lavender</option>
+   </select>
+
+   <br>
+   <br>
+
+   <button type="button" onclick="color()">Rəngi dəyiş</button>
+   <br>
+   <br>
+
+    <button type="button" onclick="chBg()">Start animation</button>
+    <br>
+    <br>
+
+    <button type="button" onclick="aniStop()">Stop animation</button>
+    <br>
+    <br>
+
+    <button type="button" onclick="changeWidthDefault()">Standart width</button>
+    <br>
+    <br>
+    </div>
+    <div id="main"></div>
+   
+</body>
+</html>
+<script src="js/script.js"></script>
